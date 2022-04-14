@@ -1,6 +1,6 @@
 # CodeKit template
 
-Running on [CodeKit](https://codekitapp.com).
+Running on [CodeKit](https://codekitapp.com). This project uses a "build" folder.
 
 ## Includes
 
