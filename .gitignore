@@ -1,0 +1,11 @@
+# Mac finder artifacts
+.DS_Store
+
+# Local files
+build
+build/
+/build/
+.htaccess
+
+# SASS
+.sass-cache

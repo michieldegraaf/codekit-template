@@ -1,0 +1,27 @@
+// =Mixins
+// ----------------------------------------------
+
+// =Transitions
+// --------------------------
+
+=transition($properties: all, $duration: .25s, $easing: ease-out)
+  @if length($properties) > 1
+    transition-property: $properties
+    transition-duration: $duration
+    transition-timing-function: $easing
+  @else
+    transition: $properties $duration $easing
+
+// =Keyframes
+// --------------------------
+
+=keyframes($animationName)
+  @-webkit-keyframes #{$animationName}
+    @content
+  @-moz-keyframes #{$animationName}
+    @content
+  @keyframes #{$animationName}
+    @content
+
+// =Mask
+// --------------------------

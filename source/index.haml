@@ -1,0 +1,79 @@
+!!!
+%html{:dir => "ltr", :lang => "en-US"}
+  %head
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no", :name => "viewport"}/
+
+    %title CodeKit Template
+
+    // Google Fonts
+
+    %link{:href => "https://fonts.googleapis.com", :rel => "preconnect"}/
+    %link{:crossorigin => "", :href => "https://fonts.gstatic.com", :rel => "preconnect"}/
+    %link{:href => "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Martel:wght@300;600&display=swap", :rel => "stylesheet"}/
+
+    %link{:href => "assets/images/favicon.ico", :rel => "shortcut icon"}/
+    %link{:href => "assets/images/apple-touch-icon.png", :rel => "apple-touch-icon"}/
+
+    %link{:href => "assets/stylesheets/application.css", :rel => "stylesheet"}/
+
+    // Facebook
+
+    %meta{:content => ""}/
+    %meta{:content => "assets/images/social-img.jpg", :property => "og:image"}/
+    %meta{:content => "", :property => "og:site_name"}/
+    %meta{:content => "", :property => "og:title"}/
+    %meta{:content => "website", :property => "og:type"}/
+    %meta{:content => "", :property => "og:url"}/
+
+    // Twitter Card (large)
+
+    %meta{:content => "summary", :name => "twitter:card"}/
+    %meta{:content => ""}/
+    %meta{:content => "", :name => "twitter:title"}/
+    %meta{:content => "", :name => "twitter:description"}/
+    %meta{:content => "assets/images/social-img.jpg", :name => "twitter:image"}/
+    %meta{:content => "@", :name => "twitter:site"}/
+
+    %meta{:name => "theme-color", :content => "#000"}
+
+  %body
+
+    %section.container
+
+      %header{:role => "banner"}
+
+        .logo
+          %img{:src => "/assets/images/logo-84x56.svg"}
+
+        %h1
+          Codekit Template
+          %span
+            &mdash; by Michiel de Graaf
+
+        %p A very simple static website template for CodeKit.
+
+      %section{:role => "main"}
+
+        %p
+          Running on HAML and SASS.
+
+        %ul.links
+          %li
+            %a.twitter{:href => "http://www.twitter.com/michieldegraaf", :target => "_blank"} Twitter
+          %li
+            %a.email{:href => "mailto:mail@michieldegraaf.com"} Email
+
+      %footer{:role => "contentinfo"}
+        %p
+          &copy; 2022 &mdash; Michiel de Graaf
+
+        .toggle-menu
+          %button.toggle.toggle-contrast{:role => "switch", "aria-checked" => "false", :tabindex => "-1"}
+            Toggle contrast
+          %button.toggle.toggle-color{:role => "switch", "aria-checked" => "false", :tabindex => "-1"}
+            Toggle color
+          %button.toggle.toggle-type{:role => "switch", "aria-checked" => "false", :tabindex => "-1"}
+            Toggle type
+
+  %script{:src => "assets/javascripts/vanilla.js"}

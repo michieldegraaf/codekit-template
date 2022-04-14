@@ -1,0 +1,46 @@
+// =Layout toggles
+// ----------------------------------------------
+
+// =Contrast (white)
+// --------------------
+
+body.contrast
+  background: $main-light
+  color: $main-dark
+
+  a
+    color: $main-dark
+    border-color: rgba($main-dark, .64)
+
+  .logo
+    -webkit-mask: url(../images/logo-84x56.svg) no-repeat center center
+    mask: url(../images/logo-84x56.svg) no-repeat center center
+    background: $main-dark
+    background: linear-gradient(135deg, rgba($main-dark, 1), rgba($main-dark, .4), rgba($main-dark, .1), rgba($main-dark, .6), rgba($main-dark, .8), rgba($main-dark, .4), rgba($main-dark, 1))
+    background-size: 640% 640%
+    animation: gradientslide 18s ease infinite
+
+// =Serif typeface
+// --------------------
+
+body.serif
+  +serif
+
+  h1,h2,h3,h4,
+    +serif
+    font-weight: 600
+
+    span
+      font-weight: 300
+
+  button
+    +serif
+
+  strong
+    font-weight: 600
+
+// =Color (var)
+// --------------------
+
+body.color
+  background: $accent

@@ -1,0 +1,42 @@
+// =Typography
+// ----------------------------------------------
+
+=sans-serif
+  font:
+    family: "Inter", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji
+    weight: 400
+    style: normal
+
+=serif
+  font:
+    family: "Martel", source-serif-4, freight-text-pro, Georgia, Times, serif
+    weight: 300
+    style: normal
+
+=mono
+  font:
+    family: "Input Mono", "Source Code Pro", Courier, mono
+    weight: 300
+    style: normal
+
+=font-size
+  font-size: 20px
+
+=line-height
+  line-height: 1.8
+
+body, button
+  +sans-serif
+  +font-size
+  +line-height
+
+h1,h2,h3,h4
+  +sans-serif
+  font-size: 32px
+  font-weight: 600
+
+  span
+    font-weight: 300
+
+strong
+  font-weight: 600
