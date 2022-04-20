@@ -42,14 +42,6 @@
       "rFN" : 0,
       "uCM" : 0
     },
-    "\/source\/assets\/images\/apple-touch-icon.ico" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/assets\/images\/apple-touch-icon.ico",
-      "oF" : 0
-    },
     "\/source\/assets\/images\/apple-touch-icon.png" : {
       "ft" : 32768,
       "iS" : 1509,
@@ -71,11 +63,41 @@
       "oAP" : "\/build\/assets\/images\/favicon.ico",
       "oF" : 0
     },
-    "\/source\/assets\/images\/logo-84x56.svg" : {
+    "\/source\/assets\/images\/icon-color-48x.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/images\/logo-84x56.svg",
+      "oAP" : "\/build\/assets\/images\/icon-color-48x.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/source\/assets\/images\/icon-contrast-48x.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/images\/icon-contrast-48x.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/source\/assets\/images\/icon-type-48x.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/images\/icon-type-48x.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/source\/assets\/images\/MDGT-74x50.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/images\/MDGT-74x50.svg",
       "oF" : 0,
       "opt" : 1,
       "plM" : 52780316221407,
@@ -132,6 +154,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/build\/assets\/stylesheets\/_cursor.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 1,
+      "sct" : 0
+    },
+    "\/source\/assets\/stylesheets\/_fonts.sass" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 1,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 2,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/assets\/stylesheets\/_fonts.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 1,
@@ -256,6 +293,174 @@
       "oS" : 0,
       "pg" : 1,
       "sct" : 0
+    },
+    "\/source\/assets\/webfonts\/Redaction_10-Bold.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/webfonts\/Redaction_10-Bold.woff2",
+      "oF" : 0
+    },
+    "\/source\/assets\/webfonts\/Redaction_10-Italic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/webfonts\/Redaction_10-Italic.woff2",
+      "oF" : 0
+    },
+    "\/source\/assets\/webfonts\/Redaction_10-Regular.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/webfonts\/Redaction_10-Regular.woff2",
+      "oF" : 0
+    },
+    "\/source\/assets\/webfonts\/Redaction_20-Bold.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/webfonts\/Redaction_20-Bold.woff2",
+      "oF" : 0
+    },
+    "\/source\/assets\/webfonts\/Redaction_20-Italic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/webfonts\/Redaction_20-Italic.woff2",
+      "oF" : 0
+    },
+    "\/source\/assets\/webfonts\/Redaction_20-Regular.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/webfonts\/Redaction_20-Regular.woff2",
+      "oF" : 0
+    },
+    "\/source\/assets\/webfonts\/Redaction_35-Bold.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/webfonts\/Redaction_35-Bold.woff2",
+      "oF" : 0
+    },
+    "\/source\/assets\/webfonts\/Redaction_35-Italic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/webfonts\/Redaction_35-Italic.woff2",
+      "oF" : 0
+    },
+    "\/source\/assets\/webfonts\/Redaction_35-Regular.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/webfonts\/Redaction_35-Regular.woff2",
+      "oF" : 0
+    },
+    "\/source\/assets\/webfonts\/Redaction_50-Bold.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/webfonts\/Redaction_50-Bold.woff2",
+      "oF" : 0
+    },
+    "\/source\/assets\/webfonts\/Redaction_50-Italic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/webfonts\/Redaction_50-Italic.woff2",
+      "oF" : 0
+    },
+    "\/source\/assets\/webfonts\/Redaction_50-Regular.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/webfonts\/Redaction_50-Regular.woff2",
+      "oF" : 0
+    },
+    "\/source\/assets\/webfonts\/Redaction_70-Bold.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/webfonts\/Redaction_70-Bold.woff2",
+      "oF" : 0
+    },
+    "\/source\/assets\/webfonts\/Redaction_70-Italic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/webfonts\/Redaction_70-Italic.woff2",
+      "oF" : 0
+    },
+    "\/source\/assets\/webfonts\/Redaction_70-Regular.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/webfonts\/Redaction_70-Regular.woff2",
+      "oF" : 0
+    },
+    "\/source\/assets\/webfonts\/Redaction_100-Bold.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/webfonts\/Redaction_100-Bold.woff2",
+      "oF" : 0
+    },
+    "\/source\/assets\/webfonts\/Redaction_100-Italic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/webfonts\/Redaction_100-Italic.woff2",
+      "oF" : 0
+    },
+    "\/source\/assets\/webfonts\/Redaction_100-Regular.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/webfonts\/Redaction_100-Regular.woff2",
+      "oF" : 0
+    },
+    "\/source\/assets\/webfonts\/Redaction-Bold.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/webfonts\/Redaction-Bold.woff2",
+      "oF" : 0
+    },
+    "\/source\/assets\/webfonts\/Redaction-Italic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/webfonts\/Redaction-Italic.woff2",
+      "oF" : 0
+    },
+    "\/source\/assets\/webfonts\/Redaction-Regular.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/webfonts\/Redaction-Regular.woff2",
+      "oF" : 0
     },
     "\/source\/index.haml" : {
       "cB" : 0,
