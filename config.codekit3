@@ -69,7 +69,7 @@
       "oA" : 0,
       "oAP" : "\/build\/assets\/images\/icon-color-48x.svg",
       "oF" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "plM" : 52780316221407,
       "prP" : 0
     },
@@ -79,7 +79,7 @@
       "oA" : 0,
       "oAP" : "\/build\/assets\/images\/icon-contrast-48x.svg",
       "oF" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "plM" : 52780316221407,
       "prP" : 0
     },
@@ -89,7 +89,7 @@
       "oA" : 0,
       "oAP" : "\/build\/assets\/images\/icon-type-48x.svg",
       "oF" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "plM" : 52780316221407,
       "prP" : 0
     },
@@ -489,7 +489,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/source\/assets\/images\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 671638427.36804497
+    "lastBuiltDate" : 672234349.28287804
   },
   "projectSettings" : {
     "abortBuildOnError" : 0,

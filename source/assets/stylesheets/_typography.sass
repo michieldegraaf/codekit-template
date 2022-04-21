@@ -9,8 +9,8 @@
 
 =serif
   font:
-    family: "Martel", source-serif-4, freight-text-pro, Georgia, Times, serif
-    weight: 300
+    family: "Redaction 50", source-serif-4, freight-text-pro, Georgia, Times, serif
+    weight: 400
     style: normal
 
 =mono
@@ -20,20 +20,53 @@
     style: normal
 
 =font-size
-  font-size: 16px
+  font-size: 32px
 
 =line-height
-  line-height: 1.8
+  line-height: 1.6
 
 body, button
-  +mono
+  +serif
   +font-size
   +line-height
 
 h1,h2,h3,h4
-  +mono
-  font-size: 24px
-  font-weight: 600
+  +serif
+  +font-size
 
 strong
   font-weight: 600
+
+.r35i
+  font:
+    family: "Redaction 35"
+    style: italic
+
+.r35b
+  font:
+    family: "Redaction 35"
+    weight: 600
+
+.r50i
+  font:
+    family: "Redaction 50"
+    style: italic
+
+.r50b
+  font:
+    family: "Redaction 50"
+    style: 600
+
+.r70i
+  font:
+    family: "Redaction 70"
+    weight: italic
+
+.r70b
+  font:
+    family: "Redaction 70"
+    weight: 600
+
+.r100
+  font:
+    family: "Redaction 100"

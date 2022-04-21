@@ -4,7 +4,7 @@
     %meta{:charset => "utf-8"}/
     %meta{:content => "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no", :name => "viewport"}/
 
-    %title CodeKit Template
+    %title Web 2.0 Template by Michiel de Graaf
 
     // Google Fonts
 
@@ -35,7 +35,7 @@
     %meta{:content => "assets/images/social-img.jpg", :name => "twitter:image"}/
     %meta{:content => "@michieldegraaf", :name => "twitter:site"}/
 
-    %meta{:name => "theme-color", :content => "#000"}
+    %meta{:name => "theme-color", :content => "#fff"}
 
   %body
 
@@ -44,38 +44,36 @@
       %header{:role => "banner"}
 
         .logo
-          %img{:src => "/assets/images/logo-84x56.svg"}
+          %img{:src => "/assets/images/mdgt-74x50.svg"}
 
         %h1
-          Codekit Template
-          %span
-            &mdash; by Michiel de Graaf
+          %span.r70b
+            Web 2.0
+          %span.r50i
+            template
+          %br
+          &mdash; by Michiel de Graaf
 
-        %p A very simple static website template for CodeKit.
+        %p
+          A simple static website template for <a href="https://codekitapp.com" target="_blank">CodeKit</a>.
 
       %section{:role => "main"}
 
         %p
-          Running on HAML and SASS. View source on
-          %a{:href => "https://github.com/michieldegraaf/codekit-template", :target => "_blank"}
-            Github
-
-        %ul.links
-          %li
-            %a.twitter{:href => "http://www.twitter.com/michieldegraaf", :target => "_blank"} Twitter
-          %li
-            %a.email{:href => "mailto:mail@michieldegraaf.com"} Email
+          Running on <a href="https://haml.info/" target="_blank">HAML</a>, <a href="https://sass-lang.com/" target="_blank">SASS</a> and some <span class="r100">vanilla javascript</span>.
+          View source on <a href="https://github.com/michieldegraaf/codekit-template" target="_blank">Github</a>, follow along on <a href="https://twitter.com/michieldegraaf" target="_blank">Twitter</a>.
 
       %footer{:role => "contentinfo"}
+
         %p
-          &copy; 2022 &mdash; Michiel de Graaf
+          Updated; 21-04-2022
 
         .toggle-menu
-          %button.toggle.toggle-contrast{:role => "switch", "aria-checked" => "false", :tabindex => "-1"}
+          %button.toggle-contrast{:role => "switch", "aria-checked" => "false", :tabindex => "-1"}
             Toggle contrast
-          %button.toggle.toggle-color{:role => "switch", "aria-checked" => "false", :tabindex => "-1"}
+          %button.toggle-color{:role => "switch", "aria-checked" => "false", :tabindex => "-1"}
             Toggle color
-          %button.toggle.toggle-type{:role => "switch", "aria-checked" => "false", :tabindex => "-1"}
+          %button.toggle-type{:role => "switch", "aria-checked" => "false", :tabindex => "-1"}
             Toggle type
 
   %script{:src => "assets/javascripts/vanilla.js"}

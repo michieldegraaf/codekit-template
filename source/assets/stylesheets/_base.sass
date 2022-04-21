@@ -6,22 +6,24 @@
 
 body
   vertical-align: baseline
-  color: $main-light
-  background: $main-dark
+  color: $main-dark
+  background: $main-light
 
 a, span
   text-decoration: none
   transition: all .24s
   white-space: nowrap
 
-a 
-  color: $accent
-  border-bottom: 1px solid rgba($accent, .8)
+a
+  font:
+    family: "Redaction 35"
+    style: italic
+  color: $main-dark
+  border-bottom: 2px solid rgba($main-dark, 1)
 
   &:hover
+    color: $accent
     border-color: transparent
 
 button
-  color: $main-light
-  background: $main-dark
-  border: 1px solid rgba($main-light, .64)
+  outline: none

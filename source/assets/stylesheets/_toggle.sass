@@ -5,36 +5,41 @@
 // --------------------
 
 body.contrast
-  background: $main-light
-  color: $main-dark
+  background: $main-dark
+  color: $main-light
 
   a
-    color: $main-dark
-    border-color: rgba($main-dark, .8)
+    color: $main-light
+    border-color: rgba($main-light, 1)
+
+    &:hover
+      color: $yellow
+      border-color: transparent
 
   .logo
-    -webkit-mask: url(../images/logo-84x56.svg) no-repeat center center
-    mask: url(../images/logo-84x56.svg) no-repeat center center
-    background: $main-dark
-    background: linear-gradient(135deg, rgba($main-dark, 1), rgba($main-dark, .4), rgba($main-dark, .1), rgba($main-dark, .6), rgba($main-dark, .8), rgba($main-dark, .4), rgba($main-dark, 1))
-    background-size: 640% 640%
-    animation: gradientslide 18s ease infinite
+    background: $main-light
+
+  footer[role="contentinfo"]
+
+    p
+      border-color: $main-light
+
+    .toggle-menu
+      button
+        background-color: $main-light
+
+        &:hover
+          background-color: $yellow
 
 // =Serif typeface
 // --------------------
 
 body.serif
-  +serif
+  +sans-serif
 
   h1,h2,h3,h4,
-    +serif
-    font-weight: 600
-
-    span
-      font-weight: 300
-
-  button
-    +serif
+    +sans-serif
+    font-weight: 400
 
   strong
     font-weight: 600
@@ -44,3 +49,14 @@ body.serif
 
 body.color
   background: $accent
+
+  a
+    &:hover
+      color: $yellow
+
+  footer[role="contentinfo"]
+
+    .toggle-menu
+      button
+        &:hover
+          background-color: $yellow
