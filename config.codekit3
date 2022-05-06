@@ -103,6 +103,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/source\/assets\/images\/mdgt-578x386.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/images\/mdgt-578x386.svg",
+      "oF" : 0,
+      "opt" : 1,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/source\/assets\/javascripts\/vanilla.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -489,7 +499,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/source\/assets\/images\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 672234349.28287804
+    "lastBuiltDate" : 673524924.47293496
   },
   "projectSettings" : {
     "abortBuildOnError" : 0,
