@@ -19,6 +19,12 @@ body.contrast
   .logo
     background: $main-light
 
+  section[role="main"]
+    p
+      .r100
+        color: $main-dark
+        background: $main-light
+
   footer[role="contentinfo"]
 
     p
@@ -37,12 +43,31 @@ body.contrast
 body.serif
   +sans-serif
 
-  h1,h2,h3,h4,
+  h1,h2,h3,h4
     +sans-serif
-    font-weight: 400
+    font-weight: 700
+
+    .r35i, .r35b, .r50i, .r50b, .r70i, .r70b, .r100
+      font-weight: 700
+
+  a
+    +sans-serif
+    font:
+      weight: 400
+      style: italic
+
+  .r35i, .r35b, .r50i, .r50b, .r70i, .r70b, .r100
+    +sans-serif
+    font:
+      weight: 400
+      style: normal
 
   strong
-    font-weight: 600
+    font-weight: 700
+
+  footer[role="contentinfo"]
+    p
+      +sans-serif
 
 // =Color (var)
 // --------------------

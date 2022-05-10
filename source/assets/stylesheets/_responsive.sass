@@ -1,16 +1,76 @@
 // =Responsive
 // ----------------------------------------------
 
-@media screen and (max-width: 1200px)
+@media screen and (max-width: 960px)
+  .container
+    padding: 80px
 
-@media screen and (max-width: 800px)
+  header[role="banner"] 
+    h1
+      margin-top: 64px
+
+    p 
+      margin-top: 40px
+
+  section[role="main"]
+    p
+      margin-top: 40px
+
+  footer[role="contentinfo"]
+    margin-top: 64px
+
+@media screen and (max-width: 720px)
+  body, button,
+  h1,h2,h3,h4
+    font-size: 40px
+
+  header[role="banner"] 
+    .logo
+      width: 290px
+      height: 194px
+      -webkit-mask: url(../images/mdgt-290x194.svg) no-repeat center center
+      mask: url(../images/mdgt-290x194.svg) no-repeat center center
 
 @media screen and (max-width: 640px)
-
-@media screen and (max-width: 500px)
+  body, button,
+  h1,h2,h3,h4
+    font-size: 32px
 
   .container
-    padding: 0 40px
+    padding: 64px
 
-  header[role="banner"]
+  header[role="banner"] 
+    h1
+      margin-top: 56px
+
+    p 
+      margin-top: 32px
+
+  section[role="main"]
+    p
+      margin-top: 32px
+
+  footer[role="contentinfo"]
+    margin-top: 56px
+
+@media screen and (max-width: 480px)
+  body, button,
+  h1,h2,h3,h4
+    font-size: 24px
+
+  .container
+    padding: 40px
+
+  header[role="banner"] 
+    h1
+      margin-top: 40px
+
+    p 
+      margin-top: 24px
+
+  section[role="main"]
+    p
+      margin-top: 24px
+
+  footer[role="contentinfo"]
     margin-top: 40px
