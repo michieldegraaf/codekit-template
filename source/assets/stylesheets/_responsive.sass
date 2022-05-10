@@ -53,6 +53,11 @@
   footer[role="contentinfo"]
     margin-top: 56px
 
+    p
+      height: 48px
+      line-height: 48px
+      font-size: 16px
+
 @media screen and (max-width: 480px)
   body, button,
   h1,h2,h3,h4
@@ -74,3 +79,11 @@
 
   footer[role="contentinfo"]
     margin-top: 40px
+
+@media screen and (max-width: 400px)
+  header[role="banner"] 
+    .logo
+      width: 146px
+      height: 98px
+      -webkit-mask: url(../images/mdgt-146x98.svg) no-repeat center center
+      mask: url(../images/mdgt-146x98.svg) no-repeat center center

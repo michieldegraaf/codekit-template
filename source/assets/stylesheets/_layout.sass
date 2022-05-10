@@ -14,6 +14,7 @@ header[role="banner"]
     -webkit-mask: url(../images/mdgt-578x386.svg) no-repeat center center
     mask: url(../images/mdgt-578x386.svg) no-repeat center center
     background: $main-dark
+    transition: none
 
     img
       display: none
@@ -63,6 +64,9 @@ footer[role="contentinfo"]
       background:
         color: $main-dark
         size: 40px
+
+      &:nth-child(3)
+        margin: 0
 
       &.toggle-contrast
         -webkit-mask: url(../images/icon-contrast-48x.svg) no-repeat center center
